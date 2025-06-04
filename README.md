@@ -3,18 +3,18 @@
 
 *Diego Sanchez | Stanford University | Department of Data Science*
 
-## 🏆 Project Overview
+## Project Overview
 This project presents a comprehensive analysis of potential bias in Video Assistant Referee (VAR) decisions in professional football. Using statistical methods, machine learning, and advanced visualization techniques, we analyzed 202 VAR incidents from the 2023-2024 season to investigate whether team characteristics influence decision favorability.
 
 **Key Finding**: Top-tier teams received 15% more favorable decisions than bottom-tier teams, with penalty decisions showing a striking 32.8% disparity.
 
-## 📊 Research Questions
+## Research Questions
 1. Do higher-ranked teams receive more favorable VAR decisions?
 2. Does the incident type affect the likelihood of favorable decisions?
 3. Is there evidence of systemic bias in VAR decision-making over time?
 4. What team characteristics best predict favorable VAR decisions?
 
-## 🗂️ Dataset Description
+## Dataset Description
 - **202 VAR incidents** from Premier League, Championship, and League One
 - **Time period**: 2023-2024 season
 - **Incident types**: Red Card, Penalty, Goal Review, Offside, Handball
@@ -22,7 +22,7 @@ This project presents a comprehensive analysis of potential bias in Video Assist
 - **Team metrics**: Rank, Wins, Goals, Fouls/Cards per game
 - **Source**: `var-fairness-audit/data/var_combined.csv`
 
-## 📓 Analysis Notebooks
+## Analysis Notebooks
 
 ### 1. Data Extraction (`1_VAR_Data_Extraction.ipynb`)
 - Data loading and cleaning procedures
@@ -51,7 +51,7 @@ This project presents a comprehensive analysis of potential bias in Video Assist
 - End-to-end analysis pipeline
 - Consolidated findings and visualizations
 
-## 🎯 Key Findings
+## Key Findings
 
 ### Statistical Results
 - **Overall disparity**: 15% more favorable decisions for top-tier teams
@@ -66,7 +66,7 @@ This project presents a comprehensive analysis of potential bias in Video Assist
 4. **Feature Importance**: Machine learning-derived predictive factors
 5. **Bootstrap Analysis**: Statistical significance testing visualization
 
-## 🔬 Methodology
+## Methodology
 
 ### Statistical Techniques
 - **Bootstrap confidence intervals** (10,000 resamples)
@@ -84,7 +84,7 @@ This project presents a comprehensive analysis of potential bias in Video Assist
 - **Permutation testing** for validation
 - **Network analysis** of referee-team interactions
 
-## 📈 Research Poster
+## Research Poster
 A comprehensive research poster was created following academic standards, featuring:
 - Abstract and research questions
 - Data exploration visualizations
@@ -92,14 +92,14 @@ A comprehensive research poster was created following academic standards, featur
 - Conclusions and future directions
 - Professional design optimized for conference presentation
 
-## 🎤 Presentation
+## Presentation
 A 5-10 minute passionate presentation script was developed, incorporating:
 - Personal motivation and narrative storytelling
 - Clear explanation of methodology and findings
 - Discussion of implications for football fairness
 - Call to action for continued research
 
-## 💻 Technical Requirements
+## Technical Requirements
 ```python
 # Core packages
 pandas >= 1.3.0
@@ -113,7 +113,7 @@ scikit-learn >= 1.0.0
 google-generativeai >= 0.3.0
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the repository**
 2. **Install dependencies**: `pip install -r requirements.txt`
@@ -121,7 +121,7 @@ google-generativeai >= 0.3.0
 4. **For LLM analysis**: Configure Google Gemini API key
 5. **Generate visualizations**: All code included in notebooks
 
-## 📁 Project Structure
+## Project Structure
 ```
 DS112_Football/
 ├── 1_VAR_Data_Extraction.ipynb
@@ -135,43 +135,17 @@ DS112_Football/
 └── README.md
 ```
 
-## 🎯 DS 112 Requirements Fulfillment
-
-### Data Collection (10/10)
-- **Extraordinarily complex**: Multi-source VAR data collection across leagues
-- **Custom metrics**: Created decision favorability scoring system
-
-### Data Visualization (10/10)
-- **Unusually appealing**: Professional publication-quality visualizations
-- **Multiple techniques**: Scatter plots, time series, bootstrap distributions, feature importance
-
-### Data Analysis (10/10)
-- **Broad range of techniques**: Statistical tests, ML models, causal inference
-- **Beyond class scope**: Bootstrap analysis, propensity score matching
-
-### Research Question (10/10)
-- **Publication potential**: Addresses timely controversy in sports technology
-- **Clear motivation**: Well-defined bias detection framework
-
-### Storytelling (10/10)
-- **Compelling narrative**: Personal passion woven throughout analysis
-- **Coherent flow**: From exploration to statistical validation
-
-### Real-World Application (10/10)
-- **Immediate impact**: Findings relevant to football governing bodies
-- **Actionable insights**: Clear recommendations for VAR improvement
-
-## 🔮 Future Directions
+## Future Directions
 - Expand to multiple seasons for longitudinal analysis
 - Incorporate referee-specific bias patterns
 - Develop real-time VAR decision monitoring system
 - Create standardized fairness audit protocol
 - Apply to other sports with video review technology
 
-## 🙏 Acknowledgments
+## Acknowledgments
 Special thanks to the DS 112 teaching staff for guidance and the open-source community for statistical analysis tools and visualization libraries.
 
-## 📧 Contact
+## Contact
 Diego Sanchez | dsanh14@stanford.edu
 
 ---
